@@ -7,6 +7,90 @@
     <title>Home</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="header">
+            <ul id="menu">
+                <li class="menu-item">
+                    <a href="Home.html">HOME</a>
+                </li>
+                <li class="menu-item">
+                    <a href="About.html">ABOUT</a>
+                </li>
+                <li class="logo-item">
+                    <a href="Home.html">
+                        <img class="logo" src="./media/logo.png" alt="LOGO">
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="Albums.html">ALBUMS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="Events.html">EVENTS</a>
+                </li>
+                <li class="burger-menu" onclick="toggleMenu()">
+                    <a href="#">
+                        <img src="./media/burger.png" alt="Menu">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="popup-menu" class="popup-menu">
+            <ul>
+                <li class="menu-item2">
+                    <a href="Home.html">HOME</a>
+                </li>
+                <li class="menu-item2">
+                    <a href="About.html">ABOUT</a>
+                </li>
+                <li class="menu-item2">
+                    <a href="Albums.html">ALBUMS</a>
+                </li>
+                <li class="menu-item2">
+                    <a href="Events.html">EVENTS</a>
+                </li>
+                <li class="close-menu" onclick="toggleMenu()">
+                    <a href="#">
+                        <img src="./media/x.png" alt="X">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="text">
+                <img class="title" src="./media/img2.png" alt="Title">
+                <p class="description">Metallica's website provides fans with an overview of the band's history, discography, upcoming events all in one place.</p>
+            </div>
+            <div class="picture">
+                <img class="band" src="./media/band1.png" alt="Band-picture">
+            </div>
+        </div>
+        <footer>
+            <img class="footer-img" src="./media/img3.png" alt="Metallica">
+            <div class="links">
+                <a href="https://www.instagram.com/metallica/">
+                    <img src="./media/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.figma.com/design/O0Y2I8IRsq4mLEQKwZad8z/Metallica-band-website?node-id=82-138&node-type=frame&t=zNlhxuS7MQSaDTzs-0">
+                    <img src="./media/figma.png" alt="Figma">
+                </a>
+                <a href="https://github.com/JakobVapper/Metallica-Website">
+                    <img src="./media/github.png" alt="Github">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function toggleMenu() {
+            var popupMenu = document.getElementById('popup-menu');
+            popupMenu.classList.toggle('show');
+        }
+
+        window.onclick = function(event) {
+            var popupMenu = document.getElementById('popup-menu');
+            if (event.target == popupMenu) {
+                popupMenu.classList.remove('show');
+            }
+        }
+    </script>
 </body>
 </html>

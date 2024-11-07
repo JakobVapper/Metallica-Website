@@ -7,6 +7,119 @@
     <title>About</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="header">
+            <ul id="menu">
+                <li class="menu-item">
+                    <a href="Home.html">HOME</a>
+                </li>
+                <li class="menu-item">
+                    <a href="About.html">ABOUT</a>
+                </li>
+                <li class="logo-item">
+                    <a href="Home.html">
+                        <img class="logo" src="./media/logo.png" alt="LOGO">
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="Albums.html">ALBUMS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="Events.html">EVENTS</a>
+                </li>
+                <li class="burger-menu" onclick="toggleMenu()">
+                    <a href="#">
+                        <img src="./media/burger.png" alt="Menu">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="popup-menu" class="popup-menu">
+            <ul>
+                <li class="menu-item2">
+                    <a href="Home.html">HOME</a>
+                </li>
+                <li class="menu-item2">
+                    <a href="About.html">ABOUT</a>
+                </li>
+                <li class="menu-item2">
+                    <a href="Albums.html">ALBUMS</a>
+                </li>
+                <li class="menu-item2">
+                    <a href="Events.html">EVENTS</a>
+                </li>
+                <li class="close-menu" onclick="toggleMenu()">
+                    <a href="#">
+                        <img src="./media/x.png" alt="X">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <h1 class="title">Members</h1>
+            <div class="artist1">
+                <img class="artist-picture" src="./media/artist1.png" alt="Artist">
+                <div class="text">
+                    <h2 class="name">James Alan Hetfield</h2>
+                    <p class="description">James Alan Hetfield (born August 3, 1963) is an American musician. He is the lead vocalist, rhythm guitarist, co-founder, and a primary songwriter of heavy metal band Metallica. He is mainly known for his intricate rhythm playing, but occasionally performs lead guitar duties and solos both live and in studio. Hetfield co-founded Metallica in October 1981 after answering an advertisement by drummer Lars Ulrich in the Los Angeles newspaper The Recycler. Metallica has won nine Grammy Awards and released 11 studio albums, three live albums, four extended plays, and 24 singles. Hetfield is often regarded as one of the greatest heavy metal rhythm guitar players of all time.</p>
+                </div>
+            </div>
+            <div class="artist2">
+                <img class="artist-picture" src="./media/artist2.png" alt="Artist">
+                <div class="text">
+                    <h2 class="name">Kirk Lee Hammett</h2>
+                    <p class="description">Kirk Lee Hammett (born November 18, 1962) is an American musician who has been the lead guitarist of heavy metal band Metallica since 1983. Prior to joining Metallica, he co-formed the thrash metal band Exodus in 1979. In 2003, Hammett, along with bandmate James Hetfield, was ranked 23rd on Rolling Stone's list of Greatest Guitarists of All Time. In 2009, Hammett was ranked number 15 in Joel McIver's book The 100 Greatest Metal Guitarists.</p>
+                </div>
+            </div>
+            <div class="artist1">
+                <img class="artist-picture" src="./media/artist3.png" alt="Artist">
+                <div class="text">
+                    <h2 class="name">Lars Ulrich</h2>
+                    <p class="description">Lars Ulrich (born 26 December 1963) is a Danish musician who is the drummer and a founding member of American heavy metal band Metallica. Along with James Hetfield, Ulrich has songwriting credits on almost all of the band's songs, and the two of them are the only remaining original members of the band. The son and grandson respectively of tennis players Torben and Einer Ulrich, he played tennis in his youth and moved to Los Angeles at age 16 to train professionally. However, rather than playing tennis, Ulrich began playing drums. After publishing an advertisement in The Recycler, Ulrich met Hetfield and formed Metallica.</p>
+                </div>
+            </div>
+            <div class="artist2">
+                <img class="artist-picture" src="./media/artist4.png" alt="Artist">
+                <div class="text">
+                    <h2 class="name">Robert Trujillo</h2>
+                    <p class="description">Roberto Agustín Miguel Santiago Samuel Trujillo Veracruz (born October 23, 1964) is an American musician who has been the bassist for heavy metal band Metallica since 2003. He first rose to prominence as the bassist of crossover thrash band Suicidal Tendencies from 1989 to 1995, while also collaborating with Suicidal Tendencies frontman Mike Muir for funk metal supergroup Infectious Grooves. After leaving Suicidal Tendencies, he performed with Ozzy Osbourne, Jerry Cantrell , and heavy metal band Black Label Society. Trujillo joined Metallica in 2003 and is the band's longest-serving bassist. He was inducted to the Rock and Roll Hall of Fame as a member of Metallica in 2009.</p>
+                </div>
+            </div>
+            <h1 class="title">R.I.P Old Members</h1>
+            <div class="old-members">
+                <p class="old-member">Cliff Burton- bass (1982-1986)</p>
+                <p class="old-member">Dave Mustaine - lead quitar (1982-1983)</p>
+                <p class="old-member">Ron McGovney - bass (1982-1982)</p>
+                <p class="old-member">Jason Newsted - bass (1986-2001)</p>
+            </div>
+        </div>
+        <footer>
+            <img class="footer-img" src="./media/img3.png" alt="Metallica">
+            <div class="links">
+                <a href="https://www.instagram.com/metallica/">
+                    <img src="./media/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.figma.com/design/O0Y2I8IRsq4mLEQKwZad8z/Metallica-band-website?node-id=82-138&node-type=frame&t=zNlhxuS7MQSaDTzs-0">
+                    <img src="./media/figma.png" alt="Figma">
+                </a>
+                <a href="https://github.com/JakobVapper/Metallica-Website">
+                    <img src="./media/github.png" alt="Github">
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        function toggleMenu() {
+            var popupMenu = document.getElementById('popup-menu');
+            popupMenu.classList.toggle('show');
+        }
+
+        window.onclick = function(event) {
+            var popupMenu = document.getElementById('popup-menu');
+            if (event.target == popupMenu) {
+                popupMenu.classList.remove('show');
+            }
+        }
+    </script>
 </body>
 </html>
