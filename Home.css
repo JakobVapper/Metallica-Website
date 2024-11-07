@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #FF0000, #000000); /* Taust värv jääb samaks */
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #000000;
+    height: 67px; /* Navigeerimise kõrgus */
+    display: flex; /* Flexbox paigutus */
+    justify-content: space-between; /* Joondame logo vasakule ja menüü keskusesse */
+    align-items: center; /* Joondame sisu vertikaalselt keskele */
+    padding: 0 20px; /* Lisame horisontaalset täiendavat ruumi */
+}
+
+.logo {
+    display: block;
+}
+
+.logo img {
+    max-height: 50px; /* Muudame logo kõrguse */
+    max-width: 150px; /* Muudame logo laiuse */
+    object-fit: contain; /* Säilitame logo proportsioonid */
+}
+
+.nav_menu {
+    display: flex; /* Flexbox paigutus */
+    justify-content: center; /* Joondame lingid horisontaalselt keskele */
+    align-items: center; /* Joondame lingid vertikaalselt keskele */
+    flex-grow: 1; /* Täidame kogu ülejäänud ruumi */
+}
+
+.nav_menu ul {
+    list-style: none; /* Eemaldame nimekirja punktid */
+    display: flex; /* Flexbox, et paigutada lingid üksteise kõrvale */
+    padding: 0;
+    margin: 0;
+}
+
+.nav_menu li {
+    margin-left: 20px; /* Lisame rohkem vahemaa linkide vahele */
+    margin-right: 20px; /* Lisame ka parempoolse vahemaa */
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 15px; /* Sisemine pluss */
+    display: inline-block; /* Linkide kuvamine inline-blockina */
+}
+
+/* Lisame veel täiendavaid tekstide värvusi, kui vaja */
+h2 {
+    color: white; /* Tagame, et ka h1, h2 ja p tekst oleks valge */
+    text-align: center;
+}
+p {
+    color: white;
+}
+
+.pilt { 
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100;
+    width: 100;
+}
+
+.pilt2 img {
+    height: 150px; /* Määrame pildi kõrguse */
+    width: auto; /* Säilitame proportsioonid */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Mobiili vaate kohandused */
+@media (max-width: 768px) {
+    /* Navigeerimisriba paigutus muutub vertikaalseks */
+    #header {
+        flex-direction: column;
+        height: auto;
+        justify-content: flex-start;
+        padding: 20px 10px;
+    }
+
+    .logo img {
+        max-width: 120px; /* Väiksem logo mobiili jaoks */
+    }
+
+    .nav_menu {
+        flex-direction: column; /* Paigutame menüü lingid üksteise alla */
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .nav_menu ul {
+        flex-direction: column; /* Paigutame lingid vertikaalselt */
+    }
+
+    .nav_menu li {
+        margin-left: 0; /* Eemaldame vasakpoolse marginaali */
+        margin-bottom: 10px; /* Lisame alt rohkem ruumi */
+    }
+
+    /* Kõik pildid ja konteinerid mobiilseadmes muutuvad paindlikuks ja võtavad täis laiuse */
+    .container {
+        flex-direction: column; /* Muutame konteineri vertikaalseks */
+        align-items: center;
+    }
+
+    .pilt, .pilt2 {
+        width: 100%; /* Pildid võtavad kogu ekraani laiuselt */
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+}
