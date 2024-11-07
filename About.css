@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color:#000000;
+    height: 100%;
+    color: white; /* Seadistame kogu body teksti värvi valgeks */
+}
+#wrapper {
+    min-height: 100%;
+    position: relative;
+    background: linear-gradient(to top, #FF0000, #000000);
+    
+    
+}
+#header {
+    background-color: #000000;
+    height: 67px; /* Navigeerimise kõrgus */
+    display: flex; /* Flexbox paigutus */
+    justify-content: space-between; /* Joondame logo vasakule ja menüü keskusesse */
+    align-items: center; /* Joondame sisu vertikaalselt keskele */
+    padding: 0 20px; /* Lisame horisontaalset täiendavat ruumi */
+}
+.logo {
+    display: block;
+}
+.logo img {
+    max-height: 50px; /* Muudame logo kõrguse */
+    max-width: 150px; /* Muudame logo laiuse */
+    object-fit: contain; /* Säilitame logo proportsioonid */
+}
+.nav_menu {
+    display: flex; /* Flexbox paigutus */
+    justify-content: center; /* Joondame lingid horisontaalselt keskele */
+    align-items: center; /* Joondame lingid vertikaalselt keskele */
+    flex-grow: 1; /* Täidame kogu ülejäänud ruumi */
+}
+.nav_menu ul {
+    list-style: none; /* Eemaldame nimekirja punktid */
+    display: flex; /* Flexbox, et paigutada lingid üksteise kõrvale */
+    padding: 0;
+    margin: 0;
+}
+.nav_menu li {
+    margin-left: 20px; /* Lisame rohkem vahemaa linkide vahele */
+    margin-right: 20px; /* Lisame ka parempoolse vahemaa */
+}
+.nav_menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 15px; /* Sisemine pluss */
+    display: inline-block; /* Linkide kuvamine inline-blockina */
+}
+
+.James{
+    height: 300px;
+    
+}
+
+.Vocal{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.Members{
+    padding: 30px;
+}
+
+.Kirk{
+    height: 300px;
+}
+
+.Lead-guitar{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+}
+
+.Lars{
+    height: 300px;
+}
+
+.Drums{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.Robert{
+    height: 300px;
+}
+
+.Bass{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.old_members{
+    padding: 20px;
+}
+
+
