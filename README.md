@@ -1,39 +1,42 @@
-##Tiimi liikmed
-Jakob Vapper - Juht
-Oliver Põder - Figma
-Silver Reinart - Figma, aitas koodis probleemidega
-Hendrik Reinpal - Figma, kood
-Maikel Lätt - Figma, kood
-Joosep Leps - Figma, kood
-Kaur Voolar - Figma, kood
+Metallica Bändi Kodulehe Projekt
+Tiimi liikmed
+Jakob Vapper - Tiimijuht
+Oliver Põder - Figma disainer
+Silver Reinart - Figma disainer, kooditoe pakkuja
+Hendrik Reinpal - Figma disainer, koodi arendaja
+Maikel Lätt - Figma disainer, koodi arendaja
+Joosep Leps - Figma disainer, koodi arendaja
+Kaur Voolar - Figma disainer, koodi arendaja
+Projekti lingid
+Figma disain: Metallica Bändi Koduleht
+Live koduleht: Metallica Koduleht
+Projekti ajakava
+Esimene päev: 06.11.24
+Tutvumine ja bändi valimine: Tutvusime tiimiliikmetega, valisime Metallica projekti fookuseks ja kogusime bändi kohta infot, mis koondasime Wordi dokumenti.
+Esialgne planeerimine: Joonistasime tahvlile kodulehe struktuuri ja jagasime ülesanded.
+Figma disain: Otsustasime töötada ühiselt Figma keskkonnas, kus igaüks vastutas oma lehe eest. Päeva lõpuks valmis arvutivaate disain.
 
-##Lingid
-Figma: https://www.figma.com/design/O0Y2I8IRsq4mLEQKwZad8z/Metallica-band-website?node-id=1-98&node-type=frame&t=FsivwJytcNSpRu9P-0
-Live Website: https://metallica-website.tak22vapper.itmajakas.ee/
+
+Teine päev: 07.11.24
+Koodi kirjutamine: Alustasime koodi kirjutamist, kuna arvutivaate disain Figmas oli valmis.
+Hendrik - Header ja avaleht
+Maikel - Footer ja About leht
+Kaur - Albumite leht
+Joosep - Eventide leht
+Figma täiendamine: Mõned tiimiliikmed jätkasid Figma mobiilivaate ja arvutivaate täiendamist.
+Branchide kasutamine: Iga tiimiliige töötas eraldi branch'ides, et vältida konflikte.
+Abi mobiilivaatega: Jakob aitas mobiilivaate kujundusega, kuna paljudel oli sellega vähem kogemusi.
 
 
-##Esimene päev 06.11.24
-Tutvusime tiimiliikmetega ning valisime, mis bändi kohta me teeme. Järgmisena kogusime infot bändi kohta ja panime selle wordi dokumenti. Siis planeerisime, milline see leht võiks välja näha, joonistasime tahvilile lehe disaini ehituse. Edasi jagasime tööülesanded ära. Otsustasime, et teeme kõik koos figmat, jagasime nii ära, et iga üks tegi oma lehte. Jõudsime Figma arvutivaate disaini valmis.
-![1000001996](https://github.com/user-attachments/assets/786d8bf4-e7be-4ace-8169-dfc298109d01)
-
-##Teine päev 07.11.24
-Kuna Figma arvutivaate disain oli valmis, siis alustasime koodi. Joosep, Kaur, Hendrik ja Maikel kirjutasid koodi, ülejäänud tegid Figmas telefoni vaadet ja uuendasid arvutivaate disaini. Hendrik tegi headeri ja home pagei, Maikel tegi footeri ja about pagei, Kaur tegi albumite pagei ning Joosep tegi eventide pagei. Jakob ja Silver aitasid koodi probleemidega. Kõik me töötasime eri branchide peal. Päeva keskpunktiks olime jõudnud Figma täitsa valmis ja koodis arvutivaate valmis. Kuna esmakurslastel ei olnud suurt kogemust telefoni vaate loomisega, aitas Jakob.
-![1000001997](https://github.com/user-attachments/assets/80770c87-d9fc-4438-8684-896453b4c84e)
-
-##Kolmas päev 08.11.24
-Päeva alguses fikseerisime viimaseid väikseid probleeme koodiga ning rääkisime läbi, mis meil veel teha on vaja. Järgmisena lükkasime lehe Zones livei ja siis alustasime dokumentatsiooni kirjutamisega. 
-
-##Mis me õppisime?
-Jakob - Õppisin tiimi juhendamist.
-
-Oliver - 
-
-Silver - Õppisin meeskonnatööd ja õpetamist.
-
-Hendrik - Oleme kasutanud tailwindsi seega html css-iga teha oli keerulisem kuna tuleb teha topelt tööd. Meeskonna töö ja omavahel suhtlemine on sellises projektis oluline.
-
-Maikel - Kuna varasemalt oleme kasutanud tailwindi, seega kogu see css maailm oli uus minu jaoks ning selle projektiga sai väikse aimduse, kuidas sellega ehitada lehte. Kindlasti sai juurde ka meeskonnatöö kogemusi .
-
-Joosep - Sain palju uut teada selle kohta kuidas mitme inimesega ühte veebilehte ehitada ja milline see võiks välja näha päris maailmas.
-
-Kaur - Õppisin panema teksti kõrvuti ning kuidas tiimiga koos töötamine enam vähem käib.
+Kolmas päev: 08.11.24
+Viimaste vigade parandamine: Parandasime viimased vead koodis ja arutasime järelejäänud ülesandeid.
+Avalikustamine: Tõstsime lehe Zones’i keskkonda live’i.
+Dokumentatsiooni koostamine: Alustasime projekti dokumenteerimisega.
+Mida me õppisime?
+Jakob: Õppisin tiimi juhtimist.
+Oliver: (täienda oma õpitut)
+Silver: Õppisin meeskonnatööd ja teistele koodis abi pakkumist.
+Hendrik: HTML ja CSS-iga töötamine ilma Tailwindita oli keerulisem. Sellise projekti puhul on oluline meeskonnatöö ja omavaheline suhtlemine.
+Maikel: Varasem Tailwindi kogemus tegi CSS-i maailma uueks ja keeruliseks, kuid projekt andis hea ülevaate, kuidas lehte ehitada. Samuti kogunes palju meeskonnatöö kogemusi.
+Joosep: Sain palju uusi teadmisi sellest, kuidas üheskoos veebilehte ehitada ja milline on tegelik töökorraldus.
+Kaur: Õppisin, kuidas paigutada teksti kõrvuti ja kuidas meeskonnatöö praktiliselt välja näeb.
