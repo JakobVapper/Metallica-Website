@@ -56,3 +56,4 @@
 - **Maikel**: Varasem Tailwindi kogemus tegi CSS-i maailma uueks ja keeruliseks, kuid projekt andis hea ülevaate, kuidas lehte ehitada. Samuti kogunes palju meeskonnatöö kogemusi.
 - **Joosep**: Sain palju uusi teadmisi sellest, kuidas üheskoos veebilehte ehitada ja milline on tegelik töökorraldus.
 - **Kaur**: Õppisin, kuidas paigutada teksti kõrvuti ja kuidas meeskonnatöö praktiliselt välja näeb.
+
